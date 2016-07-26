@@ -35,7 +35,7 @@ function oneAway(a, b) {
   } else if (canRemoveCharFromBiggerStringToMatch(a, b)) {
     return true;
   } else if (canAddCharToLilStringToMatch(a,b)) {
-    console.log('o noes')
+    // console.log('o noes')
     return true;
   } else {
     return null; // oh noes!
